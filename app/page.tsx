@@ -6,6 +6,7 @@ import Marque from "@components/layout/Marque";
 import Services from "@components/home/Services";
 import CustomImage from "@components/ui/CustomImage";
 import Recent from "@components/home/Recent";
+import Testimonials from "@components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
 
       <HeaderHome />
       <About />
-      <Services/>
-      <Recent/>
+      <Services />
+      <Recent />
+      <Testimonials />
 
     </div>
   );
