@@ -1,5 +1,4 @@
-import Socials from "@components/layout/Socials";
-import ButtonWithArrow from "@components/ui/Button";
+
 import CustomImage from "@components/ui/CustomImage";
 const About = () => {
     return (

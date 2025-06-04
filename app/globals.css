@@ -29,6 +29,22 @@ body {
 }
 
 .service-box {
-
   box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.star {
+  border-bottom: 0.5px solid #000;
+  background: #fff;
+}
+
+.top {
+  border-top: 0.5px solid #000;
+  background: #fff;
+}
+
+.name2{
+  background: linear-gradient(90deg, #000 28.34%, #393838 52.12%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }

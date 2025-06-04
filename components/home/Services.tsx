@@ -1,4 +1,3 @@
-import ButtonWithArrow from "@components/ui/Button";
 import CustomImage from "@components/ui/CustomImage";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 

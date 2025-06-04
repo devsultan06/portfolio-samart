@@ -1,33 +1,99 @@
-import { timelineData } from "@/data/timelineData";
 import CustomImage from "@components/ui/CustomImage";
+import Image from "next/image";
+
+const timelineData = [
+    {
+        title: "A Real Estate Landing Page Website.",
+        images: [
+            "/images/estate.png",
+            "/images/est2.png",
+            "/images/est3.png",
+            "/images/est4.png",
+            "/images/est5.png",
+        ],
+        isLive: false,
+    },
+    {
+        title: "A Cargo Shipping and Logistics Website.",
+        images: [
+            "/images/cargo1.png",
+            "/images/cargo2.png",
+            "/images/cargo3.png",
+            "/images/cargo4.png",
+            "/images/cargo5.png",
+
+        ],
+        isLive: true,
+    },
+];
+
 
 const Journey = () => {
     return (
-        <div className="pb-[100px] pt-[60px] px-[100px] max-900:px-[20px]" >
-            <div className=" border-b border-dark12">
-                <p className="text-grey50 text-[18px]">Journey</p>
-                <h1 className="text-[38px] pb-[40px] ">Damien's Journey - A Timeline</h1>
+        <div className="mt-[95px]" >
+            <div className=" text-center mb-[103px]  mx-auto" >
+
+                <h1 className="text-[48px] w-[1200px] mx-auto font-[500] text-[#000]">Step into my design studio and discover the amazing projects that showcase my passion for creativity. </h1>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-[50px]">
 
+            {timelineData.map((project, index) => (
+                <div key={index} className="mb-24">
+                    <h2 className="text-[#000] text-[40px] font-[400] mb-6">
+                        {project.title}{" "}
+                        {project.isLive && (
+                            <span className="text-[#ff0019] font-[700] text-[48px] ml-2">(LIVE)</span>
+                        )}
+                    </h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {project.images.map((src, idx) => (
+                            <div key={idx} className="relative w-full  rounded-lg overflow-hidden ">
+                                <Image
+                                    src={src}
+                                    alt={`Project image ${idx + 1}`}
+                                    width={500}
+                                    height={528}
 
-                {timelineData.map((item, index) => (
-                    <div
-                        key={index}
-                        className="bg-[#111] p-6 rounded-xl shadow-lg text-white relative overflow-hidden">
-                        <CustomImage src="/images/shape1.png" alt="Hello" width={200} height={200} className="rounded-full absolute top-[-30px] right-[-20px] z-1 " />
-                        <CustomImage src="/images/shape2.png" alt="Hello" width={200} height={200} className="rounded-full absolute bottom-[-20px] left-[-20px] z-1 " />
-
-                        <div className="relative z-10">
-                            <h2 className="text-2xl text-grey50 font-bold">YEAR - {item.year}</h2>
-                            <p className="text-grey50 mt-2 normal-case"> {item.description.charAt(0).toUpperCase() + item.description.slice(1).toLowerCase()}</p>
-                        </div>
-
+                                />
+                            </div>
+                        ))}
                     </div>
-                ))}
-            </div>
+                </div>
+            ))}
 
+            <div>
+                <div>
+                    <h2 className="text-[#000] font-[400] text-[40px] mb-6">
+                        A Fintech Dashboard.
+                    </h2>
+                    <div className="relative w-[100%] mx-auto h-[80vh] md:h-[120vh] px-20">
+                        <Image
+                            src="/images/dashboard.png"
+                            alt="Car Rental Website"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
+
+                </div>
+
+                <div className="mt-[50px] pb-[150px]">
+                    <h2 className="text-[#000] font-[400] text-[48px] mb-6">
+                        A Futuristic Furniture Website (Dummy Header Section).
+                    </h2>
+                    <div className="relative w-[100%] mx-auto h-[80vh] md:h-[120vh] px-20">
+                        <Image
+                            src="/images/futuristic.png"
+                            alt="Car Rental Website"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
+
+                </div>
+            </div>
 
 
         </div>
