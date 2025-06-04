@@ -75,7 +75,7 @@ const GalleryPreview = () => {
                                 key={mural.id}
                                 className="group cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
                             >
-                                <div className="aspect-[5/3] overflow-hidden">
+                                <div className="aspect-[3/4] overflow-hidden">
                                     <img
                                         src={mural.image}
                                         alt={mural.title}
