@@ -23,6 +23,11 @@ body {
   backdrop-filter: blur(2px);
 }
 
+.gal {
+  border-radius: 16px;
+  background: linear-gradient(90deg, #6f00b9 0%, #320053 100%);
+}
+
 .image-service {
   border-radius: 20px 20px 0px 20px;
   background: rgba(129, 129, 129, 0.7);

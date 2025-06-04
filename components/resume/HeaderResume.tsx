@@ -66,12 +66,12 @@ const HeaderResume = () => {
                         </div>
 
                         <div className="flex gap-[20px] ml-[30px] ">
-                            <Link href="https://www.instagram.com/ademola.samuel/" target="_blank">
+                            <Link href="https://x.com/sam_art6675?s=21&t=OypTPkmp9VXkaPhnhYMeNg" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="8" fill="black" />
                                     <path d="M24.1064 17.3669L34.9257 4H30.0967L21.8389 14.2089L14.5129 4H4L16.2666 21.0905L4.73857 35.33H9.56914L18.5341 24.2548L26.4871 35.33H37L24.1064 17.3669ZM20.3664 21.9881L18.0957 18.8254L9.28 6.5487H12.91L20.0254 16.4443L22.293 19.6086L31.7499 32.7813H28.1199L20.3664 21.9881Z" fill="white" />
                                 </svg>                        </Link>
-                            <Link href="https://www.linkedin.com/in/ademola-samuel-0b1a6b1b2/" target="_blank">
+                            <Link href="https://www.instagram.com/samuels_art7?igsh=anpkdmdjYno4Zzl2&utm_source=qr" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 41 40" fill="none">
                                     <g clip-path="url(#clip0_1292_17727)">
                                         <path d="M30.958 0H9.70801C4.53034 0 0.333008 4.19733 0.333008 9.375V30.625C0.333008 35.8027 4.53034 40 9.70801 40H30.958C36.1357 40 40.333 35.8027 40.333 30.625V9.375C40.333 4.19733 36.1357 0 30.958 0Z" fill="url(#paint0_radial_1292_17727)" />
@@ -95,7 +95,7 @@ const HeaderResume = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>                        </Link>
-                            <Link href="https://www.linkedin.com/in/ademola-samuel-0b1a6b1b2/" target="_blank">
+                            <Link href="https://www.linkedin.com/in/samuel-ademola-a532272bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 41 40" fill="none">
                                     <g clip-path="url(#clip0_1292_17732)">
                                         <path d="M31.292 0H10.042C4.86432 0 0.666992 4.19733 0.666992 9.375V30.625C0.666992 35.8027 4.86432 40 10.042 40H31.292C36.4697 40 40.667 35.8027 40.667 30.625V9.375C40.667 4.19733 36.4697 0 31.292 0Z" fill="white" />
@@ -109,7 +109,7 @@ const HeaderResume = () => {
                                     </defs>
                                 </svg>                        </Link>
 
-                            <Link href="https://www.linkedin.com/in/ademola-samuel-0b1a6b1b2/" target="_blank">
+                            <Link href="https://www.facebook.com/share/16TMgfNVKo/?mibextid=LQQJ4d" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 40 40" fill="none">
                                     <g clip-path="url(#clip0_1292_17737)">
                                         <rect width="40" height="40" rx="10" fill="white" />

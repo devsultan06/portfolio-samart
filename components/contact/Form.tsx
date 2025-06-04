@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useEffect, useState } from "react"
 import { FormData, formSchema } from "@/schemas/formSchema"
 import Link from "next/link"
-import useSendEmail from "@/app/hooks/useSendEmail"
+import useSendEmail from "@/hooks/useSendEmail"
 
 
 const Form = () => {

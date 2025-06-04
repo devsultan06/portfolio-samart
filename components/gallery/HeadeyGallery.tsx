@@ -23,13 +23,14 @@ const ActiveUnderline = () => (
     </svg>
 );
 
-const HeaderHome = () => {
+const HeaderGallery = () => {
     const pathname = usePathname();
-  if (pathname === "/contact") return null;
+
+    if (pathname === "/contact") return null;
 
     return (
         <div className="">
-            <div className="bg-[url('/images/bg.png')] relative bg-cover   h-[120vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg5.png')] relative bg-cover   h-[120vh]  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
@@ -50,17 +51,13 @@ const HeaderHome = () => {
                 </div>
 
                 <div>
-                    <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
-                        <h1 className="text-[36px] mb-[4px] font-[700] text-white max-900:text-[30px] ">
-                            Hello, I’m                    </h1>
-                        <h1 className="text-[76px] font-shrikhand font-[400] name">
-                            Ademola  Samuel
+                    <div className="flex flex-col text-[#fff] px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
+
+                        <h1 className="text-[76px] font-[700] mb-[96px] text-center">
+                            My Gallery
                         </h1>
-                        <p className="text-[36px] font-[700] mb-[36px] text-center">
-                            UI/UX Designer And Realistic Artist                    </p>
-                        <p className="text-[36px] italic font-[300] text-center">Welcome to my portfolio where you get to see seamless
-                            designs from my user experience / user interface skill
-                            and amazing realistic pencil artwork and paintings</p>
+
+                        <p className="text-[36px] font-[300] text-center">Step into my art gallery and discover a world of breathtaking pencil art and mural paintings that will leave you in awe.</p>
                     </div>
                 </div>
 
@@ -70,7 +67,7 @@ const HeaderHome = () => {
                             <h1 className="text-[24px] font-[500]">My socials</h1>
                         </div>
 
-                         <div className="flex gap-[20px] ml-[30px] ">
+                        <div className="flex gap-[20px] ml-[30px] ">
                             <Link href="https://x.com/sam_art6675?s=21&t=OypTPkmp9VXkaPhnhYMeNg" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="8" fill="black" />
@@ -131,7 +128,7 @@ const HeaderHome = () => {
                 </div>
 
                 <div className="absolute bottom-[0px]  max-900:left-[20px] max-900:bottom-[20px]">
-                  <Link href="/contact">
+                    <Link href="/contact">
                         <button className="px-[50px] py-[8px] talk text-white text-[22px] font-[500] transition-transform">
                             Let's Talk
                         </button>
@@ -142,4 +139,4 @@ const HeaderHome = () => {
     )
 }
 
-export default HeaderHome
+export default HeaderGallery
