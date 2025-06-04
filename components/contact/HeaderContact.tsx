@@ -26,12 +26,6 @@ const ActiveUnderline = () => (
 const HeaderContact = () => {
     const pathname = usePathname();
 
-     const router = useRouter();
-
-  const goToContact = () => {
-    router.push("/contact");
-  };
-
     return (
         <div className="">
             <div className="bg-[url('/images/bg4.png')] relative bg-cover   h-[120vh]  bg-[#afafaf] font-inter">
@@ -132,12 +126,11 @@ const HeaderContact = () => {
                 </div>
 
                 <div className="absolute bottom-[0px]  max-900:left-[20px] max-900:bottom-[20px]">
-                    <button
-                        onClick={goToContact}
-                        className=" px-[50px] talk-contact py-[8px] text-white text-[22px] font-[500]  transition-transform"
-                    >
-                        Lets Talk
-                    </button>
+                   <Link href="/contact">
+                        <button className="px-[50px] py-[8px] talk-contact text-white text-[22px] font-[500] transition-transform">
+                            Let's Talk
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

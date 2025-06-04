@@ -3,7 +3,6 @@
 import CustomImage from "@components/ui/CustomImage"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useRouter } from "next/router";
 
 const navLinks = [
     { name: "Home", href: "/" },
@@ -25,11 +24,7 @@ const ActiveUnderline = () => (
 
 const HeaderResume = () => {
     const pathname = usePathname();
-    const router = useRouter();
-
-    const goToContact = () => {
-        router.push("/contact");
-    };
+    if (pathname === "/contact") return null;
 
     return (
         <div className="">
@@ -131,12 +126,11 @@ const HeaderResume = () => {
                 </div>
 
                 <div className="absolute bottom-[0px]  max-900:left-[20px] max-900:bottom-[20px]">
-                    <button
-                        onClick={goToContact}
-                        className=" px-[50px] py-[8px] talk text-white text-[22px] font-[500]  transition-transform"
-                    >
-                        Lets Talk
-                    </button>
+                    <Link href="/contact">
+                        <button className="px-[50px] py-[8px] talk text-white text-[22px] font-[500] transition-transform">
+                            Let's Talk
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
