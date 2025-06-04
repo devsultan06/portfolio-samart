@@ -145,12 +145,12 @@ const Form = () => {
 
 
                     <div className="mt-[30px]">
-                        <label className="text-[#000] capitalize">Your Message</label>
+                        <label className="text-[#000] capitalize">Drop a message</label>
                         <textarea
                             {...register("message")}
                             rows={2}
                             className="w-full border-b border-dark20 mt-[10px] text-grey90 pb-[5px] bg-transparent placeholder:text-[#6F6F6F] focus:outline-none focus:border-[#000] resize-none"
-                            placeholder="MESSAGE"
+                            placeholder="Write a message"
                         />
                         {errors.message && <p className="text-red-500 text-sm mt-[5px]">{errors.message.message}</p>}
                     </div>
