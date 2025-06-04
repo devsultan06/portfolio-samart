@@ -42,9 +42,15 @@ body {
   background: #fff;
 }
 
-.name2{
+.name2 {
   background: linear-gradient(90deg, #000 28.34%, #393838 52.12%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.talk-contact {
+  border-radius: 16px;
+  background: var(--lets-talk-off, #484649);
+  backdrop-filter: blur(2px);
 }
