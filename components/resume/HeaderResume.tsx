@@ -26,17 +26,17 @@ const HeaderResume = () => {
     const pathname = usePathname();
     return (
         <div className="">
-            <div className="bg-[url('/images/bg2.png')] relative bg-cover   h-[120vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg3.png')] relative bg-cover   h-[120vh]  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
-                        <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
+                        <CustomImage src="/images/logo2.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
                     </div>
                     <nav className="flex gap-[104px] px-8">
                         {navLinks.map(link => (
                             <div key={link.href} className="">
                                 <Link
                                     href={link.href}
-                                    className={`text-[20px] font-[500]`}
+                                    className={`text-[20px] text-[#000] font-[500]`}
                                 >
                                     {link.name}
                                 </Link>
@@ -49,18 +49,18 @@ const HeaderResume = () => {
                 <div>
                     <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
 
-                        <h1 className="text-[76px] font-[700] mb-[96px] name2 text-center">
+                        <h1 className="text-[76px] font-[700] mb-[96px] text-[#000] text-center">
                             My Resume
                         </h1>
 
-                        <p className="text-[36px] font-[300] text-center">Discover my value as a UI/UX designer by exploring my resume, which highlights my abilities, skills and achievements. </p>
+                        <p className="text-[36px] text-[#000] font-[500] text-center">Discover my value as a UI/UX designer by exploring my resume, which highlights my abilities, skills and achievements.  </p>
                     </div>
                 </div>
 
                 <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
                     <div className="flex gap-[20px] items-center ">
                         <div>
-                            <h1 className="text-[24px] font-[500]">My socials</h1>
+                            <h1 className="text-[24px] font-[500] text-[#000]">My socials</h1>
                         </div>
 
                         <div className="flex gap-[20px] ml-[30px] ">
