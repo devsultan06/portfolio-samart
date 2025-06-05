@@ -34,19 +34,21 @@ const muralPaintings = [
 const GalleryPreview = () => {
     return (
         <div className="mt-[95px] pb-[150px]" >
-            <div className=" text-center mb-[103px]  mx-auto" >
 
-                <h1 className="text-[48px] w-[1200px] mx-auto font-[500] text-[#000]">Welcome to my artistic haven where pencil art and mural paintings blend together in a stunning display of color and creativity. </h1>
+             <div className=" text-center mb-[103px] " >
+
+                <h1 className="text-[20px] md:text-[48px] w-full md:w-[1200px] mx-auto font-[500] text-[#000]">  Welcome to my artistic haven where pencil art and mural paintings blend together in a stunning display of color and creativity. </h1>
             </div>
+
 
 
 
             <div className="max-w-7xl mx-auto p-6">
                 {/* Pencil Portraits Section */}
                 <div className="mb-16">
-                    <h2 className="text-[48px] font-[400] text-[#000] mb-4">PENCIL PORTRAITS</h2>
+                    <h2 className="text-[20px] md:text-[48px] font-[400] text-[#000] mb-4">PENCIL PORTRAITS</h2>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {pencilPortraits.map((portrait) => (
                             <div
                                 key={portrait.id}
@@ -67,9 +69,9 @@ const GalleryPreview = () => {
 
                 {/* Mural Paintings Section */}
                 <div>
-                    <h2 className="text-[48px] font-[400] text-[#000] mb-2 ">MURAL PAINTINGS</h2>
+                    <h2 className="text-[20px] md:text-[48px] font-[400] text-[#000] mb-2 ">MURAL PAINTINGS</h2>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {muralPaintings.map((mural) => (
                             <div
                                 key={mural.id}
