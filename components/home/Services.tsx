@@ -18,7 +18,7 @@ const services = [
 
 const Services = () => {
     return (
-        <div className="relative mt-[125px]">
+        <div className="relative mt-[125px] w-full">
             <div className="flex items-center gap-3 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="105" height="4" viewBox="0 0 105 4" fill="none">
                     <path d="M2 2H103" stroke="url(#paint0_linear_1292_17747)" stroke-width="4" stroke-linecap="round" />
@@ -29,14 +29,14 @@ const Services = () => {
                         </linearGradient>
                     </defs>
                 </svg>
-                <h1 className="text-[40px] font-[700]  text-[#000] ">My Services</h1>
+                <h1 className="text-[30px] md:text-[40px] font-[700]  text-[#000] ">My Services</h1>
             </div>
 
-            <div className="flex flex-col mt-[117px] gap-8 md:flex-row md:justify-center  md:gap-12">
+            <div className="flex flex-col w-full mt-[117px] gap-8 md:flex-row md:justify-center  md:gap-12">
                 {services.map((service, idx) => (
                     <div
                         key={service.title}
-                        className={`rounded-[20px] overflow-hidden w-[650px] service-box shadow-md bg-[#E2E2E2] flex  flex-col items-center md:w-[650px] transition-all 
+                        className={`rounded-[20px] overflow-hidden w-full service-box shadow-md bg-[#E2E2E2] flex  flex-col items-center md:w-[650px] transition-all 
                             }`}
                     >
                         <div className="pt-8 px-10 w-full flex justify-center items-center h-[497px] image-service">

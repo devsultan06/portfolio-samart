@@ -56,7 +56,7 @@ const Recent = () => {
                         </linearGradient>
                     </defs>
                 </svg>
-                <h1 className="text-[40px] font-bold text-black">My Recent Project</h1>
+                <h1 className="text-[30px] md:text-[40px] font-bold text-black">My Recent Project</h1>
             </div>
 
             {/* Carousel */}
@@ -66,7 +66,7 @@ const Recent = () => {
                     style={{ transform: `translateX(-${current * 50}%)` }} // shift by 50% to reveal one at a time in a 2-column layout
                 >
                     {projects.map((project) => (
-                        <div key={project.id} className="w-1/2 flex-shrink-0 flex justify-center items-center">
+                        <div key={project.id} className=" w-full md:w-1/2 flex-shrink-0 flex justify-center items-center">
                             <div className="text-center px-4">
                                 <CustomImage
                                     src={project.image}

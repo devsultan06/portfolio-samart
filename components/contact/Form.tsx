@@ -56,10 +56,12 @@ const Form = () => {
 
     return (
         <div className="mt-[95px]">
-            <div className="text-center mb-[103px] mx-auto">
-                <h1 className="text-[48px] w-[1200px] mx-auto font-[500] text-[#000]">
-                    Let’s collaborate ! Reach out to me for tech and design solutions.                     </h1>
+
+            <div className=" text-center mb-[103px] " >
+
+                <h1 className="text-[20px] md:text-[48px] w-full md:w-[1200px] mx-auto font-[500] text-[#000]">  Let’s collaborate ! Reach out to me for tech and design solutions.    </h1>
             </div>
+
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-[40px]">
 

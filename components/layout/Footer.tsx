@@ -45,7 +45,6 @@ const Footer = () => {
                 {/* Menu */}
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Menu</h3>
-                    import Link from "next/link";
 
                     <ul className="space-y-2 text-sm">
                         <li><Link href="/">Home</Link></li>
