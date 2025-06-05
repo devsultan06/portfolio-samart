@@ -77,7 +77,7 @@ const Testimonials = () => {
             </div>
 
             {/* Carousel */}
-            <div className="relative px-6">
+            <div className="relative">
                 <div
                     ref={scrollRef}
                     className="flex gap-4 justify-between overflow-x-auto scrollbar-hide scroll-smooth"
