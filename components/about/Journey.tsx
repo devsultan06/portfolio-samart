@@ -66,7 +66,7 @@ const Journey = () => {
                     <h2 className="text-[#000] font-[400] text-[20px] md:text-[40px] mb-6">
                         A Fintech Dashboard.
                     </h2>
-                    <div className="relative w-[100%] mx-auto h-[80vh] md:h-[120vh] px-20">
+                    <div className="relative w-[100%] hidden lg:block mx-auto h-[80vh] md:h-[120vh] px-20">
                         <Image
                             src="/images/dashboard.png"
                             alt="Car Rental Website"
@@ -74,8 +74,24 @@ const Journey = () => {
                             className="object-cover"
                             priority
                         />
-                        
+
+
+
                     </div>
+
+                    <div className="relative w-full block lg:hidden">
+                        <Image
+                            src="/images/dashboard.png"
+                            alt={"Hello"}
+                            width={900}
+                            height={528}
+
+                        />
+
+                    </div>
+
+
+
 
                 </div>
 
@@ -83,7 +99,7 @@ const Journey = () => {
                     <h2 className="text-[#000] font-[400] text-[20px] md:text-[40px] mb-6">
                         A Futuristic Furniture Website (Dummy Header Section).
                     </h2>
-                    <div className="relative w-[100%] mx-auto h-[80vh] md:h-[120vh] px-20">
+                    <div className="relative w-[100%] hidden lg:block  mx-auto h-[80vh] md:h-[120vh] px-20">
                         <Image
                             src="/images/futuristic.png"
                             alt="Car Rental Website"
@@ -91,6 +107,17 @@ const Journey = () => {
                             className="object-cover"
                             priority
                         />
+                    </div>
+
+                        <div className="relative w-full block lg:hidden">
+                        <Image
+                            src="/images/futuristic.png"
+                            alt={"Hello"}
+                            width={900}
+                            height={528}
+
+                        />
+
                     </div>
 
                 </div>

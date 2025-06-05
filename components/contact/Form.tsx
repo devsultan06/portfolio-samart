@@ -126,7 +126,7 @@ const Form = () => {
                             <label className="text-[#000] capitalize">Full Name</label>
                             <input
                                 {...register("fullName")}
-                                className="w-full border-b border-dark20 h-[50px] mt-[5px] text-grey90 bg-transparent placeholder:text-[#6F6F6F] focus:outline-none focus:border-[#000]"
+                                className="w-full border-b border-dark20 h-[50px] mt-[5px] text-[#000] bg-transparent placeholder:text-[#6F6F6F] focus:outline-none focus:border-[#000]"
                                 placeholder="FULL NAME"
                             />
                             {errors.fullName && <p className="text-red-500 text-sm mt-[5px]">{errors.fullName.message}</p>}
@@ -135,7 +135,7 @@ const Form = () => {
                             <label className="text-[#000] capitalize">Email</label>
                             <input
                                 {...register("email")}
-                                className="w-full border-b border-dark20 h-[50px] mt-[5px] text-grey90 bg-transparent placeholder:text-[#6F6F6F] focus:outline-none focus:border-[#000]"
+                                className="w-full border-b border-dark20 h-[50px] mt-[5px] text-[#000] bg-transparent placeholder:text-[#6F6F6F] focus:outline-none focus:border-[#000]"
                                 placeholder="EMAIL ADDRESS"
                             />
                             {errors.email && <p className="text-red-500 text-sm mt-[5px]">{errors.email.message}</p>}

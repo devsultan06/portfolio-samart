@@ -70,9 +70,7 @@ const HeaderResume = () => {
 
                 <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
                     <div className="flex gap-[20px] items-center ">
-                        <div>
-                            <h1 className="text-[24px] font-[500] text-[#000]">My socials</h1>
-                        </div>
+                     
 
                         <div className="flex gap-[20px] ml-[30px] ">
                             <Link href="https://x.com/sam_art6675?s=21&t=OypTPkmp9VXkaPhnhYMeNg" target="_blank">
