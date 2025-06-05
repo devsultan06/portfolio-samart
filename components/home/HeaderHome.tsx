@@ -40,7 +40,7 @@ const HeaderHome = () => {
 
     return (
         <div className="">
-            <div className="bg-[url('/images/bg.png')] relative bg-cover hidden md:block  h-[120vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg.png')] relative bg-cover hidden lg:block  h-[120vh]  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
@@ -150,7 +150,7 @@ const HeaderHome = () => {
                 </div>
             </div>
 
-            <div className="bg-[url('/images/bgm.png')] relative bg-cover block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bgm.png')] relative bg-cover block lg:hidden h-[89vh]  bg-[#afafaf] font-inter">
 
                 <div className="flex px-[27px] pt-[19px]  items-center">
                     <div className="menu cursor-pointer " onClick={toggleMenu}>
@@ -169,7 +169,7 @@ const HeaderHome = () => {
                         animate={{ x: 0 }}
                         exit={{ x: '-100%' }}
                         transition={{ type: 'tween', duration: 0.3 }}
-                        className="fixed top-0 left-0 z-50 w-[75%] h-full bg-black text-white p-6 md:hidden"
+                        className="fixed top-0 left-0 z-50 w-[75%] h-full bg-black text-white p-6 lg:hidden"
                     >
                         <button onClick={toggleMenu} className="mb-6 text-right w-full">✕</button>
                         <nav className="flex flex-col gap-4">
