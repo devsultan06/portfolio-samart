@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@components/layout/Footer";
 import NextTopLoader from 'nextjs-toploader';
+import ScrollToTopButton from "@components/ui/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Sam ArtTech",
@@ -19,15 +20,16 @@ export default function RootLayout({
       <body
       >
         <NextTopLoader color="#4B2CED" showSpinner={false} />
-       
+
         <div className="pt-[30px] bg-[#AFAFAF] px-[30px] max-900:px-[20px] max-900:pt-[30px]">
           {children}
+          <ScrollToTopButton />
 
         </div>
 
-              <Footer />
+        <Footer />
 
-       
+
       </body>
     </html>
   );
