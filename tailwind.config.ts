@@ -34,8 +34,11 @@ module.exports = {
         "max-800": { max: "800px" },
         "max-900": { max: "900px" },
         "max-1000": { max: "1000px" },
+                "max-1200": { max: "1200px" },
+
       },
       fontFamily: {
+
         inter: ["Inter", "sans-serif"],
         kumbh: ["Manrope", "sans-serif"],
         shrikhand: ["Shrikhand", "serif"],

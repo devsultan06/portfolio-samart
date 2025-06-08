@@ -40,7 +40,7 @@ const HeaderHome = () => {
 
     return (
         <div className="">
-            <div className="bg-[url('/images/bg.png')] relative bg-cover hidden lg:block  h-[120vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg.png')] relative  bg-no-repeat bg-contain  hidden md:block  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
@@ -61,21 +61,21 @@ const HeaderHome = () => {
                 </div>
 
                 <div>
-                    <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
-                        <h1 className="text-[36px] mb-[4px] font-[700] text-white max-900:text-[30px] ">
+                    <div className="flex max-1200:-mt-[100px] flex-col px-[300px] max-1200:px-[40px] justify-center  h-[100vh]">
+                        <h1 className="text-[36px] max-1200:text-[20px] mb-[4px] font-[700] text-white max-900:text-[30px] ">
                             Hello, I’m                    </h1>
-                        <h1 className="text-[76px] font-shrikhand font-[400] name">
+                        <h1 className="text-[76px] max-1200:text-[53px] whitespace-nowrap font-shrikhand font-[400] name">
                             Ademola  Samuel
                         </h1>
-                        <p className="text-[36px] font-[700] mb-[36px] text-center">
+                        <p className="text-[36px] max-1200:text-[20px] whitespace-nowrap font-[700] mb-[36px] text-center">
                             UI/UX Designer And Realistic Artist                    </p>
-                        <p className="text-[36px] italic font-[300] text-center">Welcome to my portfolio where you get to see seamless
+                        <p className="text-[36px] max-1200:text-[20px] italic font-[300] text-center">Welcome to my portfolio where you get to see seamless
                             designs from my user experience / user interface skill
                             and amazing realistic pencil artwork and paintings</p>
                     </div>
                 </div>
 
-                <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
+                <div className="absolute top-[0px] right-[0px]">
                     <div className="flex gap-[20px] items-center ">
                     
                         <div className="flex gap-[20px] ml-[30px] ">
@@ -147,7 +147,7 @@ const HeaderHome = () => {
                 </div>
             </div>
 
-            <div className="bg-[url('/images/bgm.png')] relative bg-cover block lg:hidden h-[89vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bgm.png')] relative  bg-no-repeat bg-contain bg-center min-h-screen block md:hidden   bg-[#afafaf] font-inter">
 
                 <div className="flex px-[27px] pt-[19px]  items-center">
                     <div className="menu cursor-pointer " onClick={toggleMenu}>

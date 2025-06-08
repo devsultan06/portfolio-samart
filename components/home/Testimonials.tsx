@@ -85,7 +85,7 @@ const Testimonials = () => {
                     {testimonial.map((item, idx) => (
                         <div
                             key={idx}
-                            className="min-w-[300px] max-w-[484px] flex-shrink-0 bg-white p-5 rounded-xl border border-gray-200 shadow-sm"
+                            className="min-w-[300px] max-w-[284px] md:max-w-[484px] flex-shrink-0 bg-white p-5 rounded-xl border border-gray-200 shadow-sm"
                         >
                             <div className="text-2xl star flex justify-between items-center text-black mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -110,7 +110,7 @@ const Testimonials = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <p className="text-[36px] font-[500] text-[#000] h-[27vh] mb-6">{item.comment}</p>
+                            <p className="text-[15px] md:text-[36px] font-[500] text-[#000] h-[27vh] mb-6">{item.comment}</p>
                             <div className="flex items-center justify-between top pt-4 mt-auto">
                                 <div className="flex items-center gap-2">
                                     <Image
@@ -120,7 +120,7 @@ const Testimonials = () => {
                                         height={32}
                                         className="rounded-full"
                                     />
-                                    <span className="text-[24px] font-[500] text-[#000]">{item.name}</span>
+                                    <span className="text-[15px] md:text-[24px] font-[500] text-[#000]">{item.name}</span>
                                 </div>
                             </div>
                         </div>
