@@ -42,6 +42,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         kumbh: ["Manrope", "sans-serif"],
         shrikhand: ["Shrikhand", "serif"],
+        miama : ["Miama", "sans-serif"],
       },
     },
   },
