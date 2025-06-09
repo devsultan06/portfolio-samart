@@ -60,15 +60,15 @@ const HeaderGallery = () => {
                 <div>
                     <div className="flex flex-col text-[#fff] px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
 
-                        <h1 className="text-[76px] font-[700] mb-[96px] text-center">
+                        <h1 className="text-[76px] max-1200:text-[53px] font-[700] mb-[96px] text-center">
                             My Gallery
                         </h1>
 
-                        <p className="text-[36px] font-[300] text-center">Step into my art gallery and discover a world of breathtaking pencil art and mural paintings that will leave you in awe.</p>
+                        <p className="text-[36px] max-1200:text-[20px] font-[300] text-center">Step into my art gallery and discover a world of breathtaking pencil art and mural paintings that will leave you in awe.</p>
                     </div>
                 </div>
 
-                <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
+                <div className="absolute top-[0px] right-[0px]">
                     <div className="flex gap-[20px] items-center ">
                      
 

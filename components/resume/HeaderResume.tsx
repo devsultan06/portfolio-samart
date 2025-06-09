@@ -60,15 +60,15 @@ const HeaderResume = () => {
                 <div>
                     <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
 
-                        <h1 className="text-[76px] font-[700] mb-[96px] text-[#000] text-center">
+                        <h1 className="text-[76px] max-1200:text-[53px] font-[700] mb-[96px] text-[#000] text-center">
                             My Resume
                         </h1>
 
-                        <p className="text-[36px] text-[#000] font-[500] text-center">Discover my value as a UI/UX designer by exploring my resume, which highlights my abilities, skills and achievements.  </p>
+                        <p className="text-[36px] max-1200:text-[20px] text-[#000] font-[500] text-center">Discover my value as a UI/UX designer by exploring my resume, which highlights my abilities, skills and achievements.  </p>
                     </div>
                 </div>
 
-                <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
+                <div className="absolute top-[0px] right-[0px]">
                     <div className="flex gap-[20px] items-center ">
                      
 

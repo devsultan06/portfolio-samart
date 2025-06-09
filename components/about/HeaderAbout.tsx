@@ -61,18 +61,18 @@ const HeaderProject = () => {
                 <div>
                     <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
 
-                        <h1 className="text-[76px] font-[700] mb-[96px] name2 text-center">
+                        <h1 className="text-[76px] max-1200:text-[53px] font-[700] mb-[96px] name2 text-center">
                             My Project
                         </h1>
 
-                        <p className="text-[36px] font-[300] text-center">Get ready to be inspired! My project page features a curated selection of my best designs, showcasing my skills and expertise.</p>
+                        <p className="text-[36px] max-1200:text-[20px] font-[300] text-center">Get ready to be inspired! My project page features a curated selection of my best designs, showcasing my skills and expertise.</p>
                     </div>
                 </div>
 
-                <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
+                <div className="absolute top-[0px] right-[0px] ">
                     <div className="flex gap-[20px] items-center ">
                     
-                        <div className="flex gap-[20px] ml-[30px] ">
+                        <div className="flex gap-[20px] ">
                             <Link href="https://x.com/sam_art6675?s=21&t=OypTPkmp9VXkaPhnhYMeNg" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="8" fill="black" />

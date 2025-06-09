@@ -60,15 +60,15 @@ const HeaderContact = () => {
                 <div>
                     <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
 
-                        <h1 className="text-[76px] font-[700] mb-[96px] text-[#000] text-center">
+                        <h1 className="text-[76px] max-1200:text-[53px] font-[700] mb-[96px] text-[#000] text-center">
                             Let’s Talk
                         </h1>
 
-                        <p className="text-[36px] text-[#000] font-[500] text-center">DReady to bring your tech design or art project to life ? Get in touch with me to discuss how we can collaborate and create something amazing together.</p>
+                        <p className="text-[36px] max-1200:text-[20px] text-[#000] font-[500] text-center">DReady to bring your tech design or art project to life ? Get in touch with me to discuss how we can collaborate and create something amazing together.</p>
                     </div>
                 </div>
 
-                <div className="absolute top-[10px] right-[100px] max-900:left-[20px] max-900:bottom-[20px]">
+                <div className="absolute top-[0px] right-[0px]">
                     <div className="flex gap-[20px] items-center ">
                         <div>
                             <h1 className="text-[24px] font-[500] text-[#000]">My socials</h1>
