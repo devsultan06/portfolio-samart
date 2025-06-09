@@ -49,8 +49,8 @@ const Services = () => {
                             />
                         </div>
                         <div className=" w-full text-[#000] p-6 flex flex-col items-center min-h-[170px]">
-                            <h2 className="text-[32px] font-[700] mb-[20px] text-center">{service.title}</h2>
-                            <p className="text-[28px] font-[500] text-center">{service.description}</p>
+                            <h2 className="text-[28px] md:text-[32px] font-[700] mb-[20px] text-center">{service.title}</h2>
+                            <p className="text-[20px] md:text-[28px] font-[500] text-center">{service.description}</p>
                         </div>
                     </div>
                 ))}

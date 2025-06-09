@@ -145,7 +145,7 @@ const HeaderContact = () => {
 
 
            
-                       <div className="bg-[url('/images/bg4m.png')] relative bg-cover block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
+                       <div className="bg-[url('/images/bg4m.png')] relative bg-center rounded-3xl bg-cover bg-no-repeat block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
            
                            <div className="flex px-[27px] pt-[19px]  items-center">
                                <div className="menu cursor-pointer " onClick={toggleMenu}>
@@ -191,7 +191,7 @@ const HeaderContact = () => {
 
                 <div className="absolute left-[0px] -bottom-[10px]">
                     <Link href="/contact">
-                        <button className="px-[30px] py-[8px] talk-contact text-white text-[12px] font-[500] transition-transform">
+                        <button className="px-[15px] py-[8px] talk-contact text-white text-[12px] font-[500] transition-transform">
                             Let's Talk
                         </button>
                     </Link>

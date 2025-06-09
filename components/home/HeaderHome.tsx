@@ -196,9 +196,9 @@ const HeaderHome = () => {
 
                 
 
-                <div className="absolute left-[0px] -bottom-[10px]">
+                <div className="absolute -left-[0px] -bottom-[10px]">
                     <Link href="/contact">
-                        <button className="px-[30px] py-[8px] talk text-white text-[12px] font-[500] transition-transform">
+                        <button className="px-[15px] py-[8px] talk text-white text-[12px] font-[500] transition-transform">
                             Let's Talk
                         </button>
                     </Link>

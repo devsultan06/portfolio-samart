@@ -8,11 +8,11 @@ const CTA = () => {
 
             {/* Background image container */}
             <div
-                className="relative w-full h-[588px] pt-[400px] px-[30px] flex justify-between rounded-md overflow-hidden  bg-cover "
+                className="relative w-full h-[588px] pt-[200px] md:pt-[400px] px-[30px] block md:flex justify-between rounded-md overflow-hidden  bg-cover "
                 style={{ backgroundImage: "url('/images/cta3.png')" }} // replace with your image path
             >
 
-                <div  className="font-miama">
+                <div  className="font-miama mb-[50px] italic">
                     <h1>Dive into my art gallery and experience
                     </h1>
                     <h1> the fusion of creativity and innovation, where art meets imagination.</h1>
