@@ -147,7 +147,7 @@ const HeaderHome = () => {
                 </div>
             </div>
 
-            <div className="bg-[url('/images/bgm.png')] relative bg-center bg-cover bg-no-repeat  block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bgm.png')] relative bg-center rounded-3xl bg-cover bg-no-repeat  block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
 
                 <div className="flex px-[27px] pt-[19px]  items-center">
                     <div className="menu cursor-pointer " onClick={toggleMenu}>
