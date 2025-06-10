@@ -33,7 +33,7 @@ const Journey = () => {
         <div className="mt-[95px] w-full" >
             <div className=" text-center mb-[103px] " >
 
-                <h1 className="text-[20px] md:text-[48px] w-full md:w-[1200px] mx-auto font-[500] text-[#000]">Step into my design studio and discover the amazing projects that showcase my passion for creativity. </h1>
+                <h1 className="text-[20px] md:text-[48px] mx-auto font-[500] text-[#000]">Step into my design studio and discover the amazing projects that showcase my passion for creativity. </h1>
             </div>
 
 

@@ -37,7 +37,7 @@ const GalleryPreview = () => {
 
              <div className=" text-center mb-[103px] " >
 
-                <h1 className="text-[20px] md:text-[48px] w-full md:w-[1200px] mx-auto font-[500] text-[#000]">  Welcome to my artistic haven where pencil art and mural paintings blend together in a stunning display of color and creativity. </h1>
+                <h1 className="text-[20px] md:text-[48px] mx-auto font-[500] text-[#000]">  Welcome to my artistic haven where pencil art and mural paintings blend together in a stunning display of color and creativity. </h1>
             </div>
 
 

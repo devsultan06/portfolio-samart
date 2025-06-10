@@ -59,7 +59,7 @@ const HeaderProject = () => {
                 </div>
 
                 <div>
-                    <div className="flex flex-col px-[300px] justify-center  h-[100vh] max-900:h-[60vh]">
+                    <div className="flex max-1200:-mt-[100px] flex-col px-[300px] max-1200:px-[40px] justify-center  h-[100vh]">
 
                         <h1 className="text-[76px] max-1200:text-[53px] font-[700] mb-[96px] name2 text-center">
                             My Project
