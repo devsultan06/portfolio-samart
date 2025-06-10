@@ -40,7 +40,7 @@ const HeaderHome = () => {
 
     return (
         <div className="">
-            <div className="bg-[url('/images/bg.png')] relative  bg-cover  hidden  h-[120vh]  md:block  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg.png')] relative radius-3xl  bg-cover  hidden  h-[120vh]  md:block  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
@@ -138,14 +138,14 @@ const HeaderHome = () => {
                     </div>
                 </div>
 
-                <div className="absolute bottom-[0px]  max-900:left-[20px] max-900:bottom-[20px]">
+               <div className="absolute bottom-[0px]  max-900:left-[20px] max-900:bottom-[20px]">
                     <Link href="/contact">
                         <button className="px-[50px] py-[8px] talk text-white text-[22px] font-[500] transition-transform">
                             Let's Talk
                         </button>
                     </Link>
                 </div>
-            </div>
+            </div>  
 
             <div className="bg-[url('/images/bgm.png')] relative bg-center rounded-3xl bg-cover bg-no-repeat  block md:hidden h-[89vh]  bg-[#afafaf] font-inter">
 
