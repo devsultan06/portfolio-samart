@@ -69,7 +69,7 @@ const HeaderProject = () => {
                     </div>
                 </div>
 
-                <div className="absolute top-[0px] right-[0px] ">
+                <div className="absolute max-1200:hidden top-[0px] right-[0px] ">
                     <div className="flex gap-[20px] items-center ">
                     
                         <div className="flex gap-[20px] ">
