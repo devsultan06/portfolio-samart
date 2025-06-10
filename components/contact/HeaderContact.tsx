@@ -184,7 +184,7 @@ const HeaderContact = () => {
                             Let’s Talk
                         </h1>
 
-                        <p className="text-[24px] md:text-[36px] text-[#000] font-[500] text-center">DReady to bring your tech design or art project to life ? Get in touch with me to discuss how we can collaborate and create something amazing together.</p>
+                        <p className="text-[24px] md:text-[36px] text-[#000] font-[500] text-center">Ready to bring your tech design or art project to life ? Get in touch with me to discuss how we can collaborate and create something amazing together.</p>
                     </div>
                 </div>
 
