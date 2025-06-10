@@ -39,8 +39,8 @@ const HeaderHome = () => {
     };
 
     return (
-        <div className="">
-            <div className="bg-[url('/images/bg.png')] relative radius-3xl  bg-cover  hidden  h-[120vh]  md:block  bg-[#afafaf] font-inter">
+        <div className="rounded-3xl">
+            <div className="bg-[url('/images/bg.png')] relative rounded-3xl  bg-cover  hidden  h-[120vh]  md:block  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />

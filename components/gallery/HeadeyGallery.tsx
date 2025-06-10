@@ -37,7 +37,7 @@ const HeaderGallery = () => {
 
     return (
         <div className="">
-            <div className="bg-[url('/images/bg5.png')] relative bg-cover hidden md:block    h-[120vh]  bg-[#afafaf] font-inter">
+            <div className="bg-[url('/images/bg5.png')] relative rounded-3xl bg-cover hidden md:block    h-[120vh]  bg-[#afafaf] font-inter">
                 <div className="flex px-[27px] pt-[19px] max-900:pt-[30px] gap-20 items-center">
                     <div className=" ">
                         <CustomImage src="/images/logo.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
