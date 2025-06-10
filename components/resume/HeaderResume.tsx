@@ -12,6 +12,8 @@ const navLinks = [
     { name: "Home", href: "/" },
     { name: "Project", href: "/project" },
     { name: "Resume", href: "/resume" },
+            { name: "Gallery", href: "/gallery" },
+
 ];
 
 const ActiveUnderline = () => (
@@ -42,7 +44,7 @@ const HeaderResume = () => {
                     <div className=" ">
                         <CustomImage src="/images/logo2.png" alt="Ripple" width={200} height={50} className="max-900:w-[80%]" />
                     </div>
-                    <nav className="flex gap-[104px] px-8">
+                    <nav className="flex gap-[50px] px-8">
                         {navLinks.map(link => (
                             <div key={link.href} className="">
                                 <Link
